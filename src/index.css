@@ -1,0 +1,116 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 200 15% 25%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 200 15% 25%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 200 15% 25%;
+
+    --primary: 200 18% 35%;
+    --primary-foreground: 0 0% 100%;
+    
+    --primary-dark: 200 20% 25%;
+    --primary-light: 200 15% 50%;
+
+    --secondary: 200 10% 92%;
+    --secondary-foreground: 200 15% 25%;
+
+    --muted: 200 10% 95%;
+    --muted-foreground: 200 8% 50%;
+
+    --accent: 200 80% 45%;
+    --accent-foreground: 0 0% 100%;
+    
+    --accent-hover: 200 80% 38%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 200 15% 88%;
+    --input: 200 15% 88%;
+    --ring: 200 18% 35%;
+
+    --radius: 0.75rem;
+    
+    --gradient-hero: linear-gradient(135deg, hsl(200 20% 25%), hsl(200 18% 35%));
+    --gradient-accent: linear-gradient(135deg, hsl(200 80% 45%), hsl(200 80% 38%));
+    
+    --shadow-lg: 0 10px 40px -10px hsl(200 15% 30% / 0.2);
+    --shadow-accent: 0 10px 30px -10px hsl(200 80% 45% / 0.3);
+
+    --sidebar-background: 0 0% 98%;
+
+    --sidebar-foreground: 240 5.3% 26.1%;
+
+    --sidebar-primary: 240 5.9% 10%;
+
+    --sidebar-primary-foreground: 0 0% 98%;
+
+    --sidebar-accent: 240 4.8% 95.9%;
+
+    --sidebar-accent-foreground: 240 5.9% 10%;
+
+    --sidebar-border: 220 13% 91%;
+
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    --background: 200 20% 12%;
+    --foreground: 0 0% 98%;
+
+    --card: 200 20% 15%;
+    --card-foreground: 0 0% 98%;
+
+    --popover: 200 20% 15%;
+    --popover-foreground: 0 0% 98%;
+
+    --primary: 200 15% 50%;
+    --primary-foreground: 200 20% 12%;
+
+    --secondary: 200 15% 20%;
+    --secondary-foreground: 0 0% 98%;
+
+    --muted: 200 15% 20%;
+    --muted-foreground: 200 10% 70%;
+
+    --accent: 200 80% 45%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 62.8% 50%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 200 15% 25%;
+    --input: 200 15% 25%;
+    --ring: 200 15% 50%;
+    --sidebar-background: 240 5.9% 10%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
