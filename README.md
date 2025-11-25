@@ -15,8 +15,6 @@ A **Loja Virtual** é um site totalmente responsivo e estilizado, apresentando:
 * Header e footer funcionais
 * Layout profissional e minimalista
 
-O objetivo foi aprender e praticar **componentização**, **UI moderna**, **arquitetura frontend** e **design responsivo**.
-
 ---
 
 ## 🚀 **🔧 Funcionalidades Principais**
@@ -94,18 +92,6 @@ npm install
 # Execute o servidor de desenvolvimento
 npm run dev
 ```
-
----
-
-## 📚 **📌 Lições Aprendidas**
-
-Durante o desenvolvimento, foram trabalhadas habilidades como:
-
-* 🧱 Componentização avançada no React
-* 🎨 Construção de interfaces limpas e responsivas
-* ⚙️ Configuração de ambiente com Vite
-* 📐 Organização de layout e experiência do usuário
-* 🐞 Tratamento de pequenos ajustes visuais e comportamentais
 
 ---
 
